@@ -4,12 +4,12 @@ import socket
 import threading
 
 
-def handle_client(client_socket):
+def handle_client(client_socket, server_app):
     while True:
         data = client_socket.recv(1024).decode()
 
         if data == 'change_image':
-            ServerApp().change_image()
+            server_app.change_image()
 
         client_socket.close()
 
@@ -19,6 +19,7 @@ def handle_client(client_socket):
 class ServerApp:
     def __init__(self):
         self.window = tk.Tk()
+        self.window.iconbitmap("images/server-icon.ico")
         self.window.title('Server Cat')
         self.window.geometry('400x400')
         self.window.resizable(width=False, height=False)
@@ -58,7 +59,8 @@ class ServerApp:
         self.window.mainloop()
 
 
-ServerApp().run()
+server_app = ServerApp()
+server_app.run()
 
 
 
