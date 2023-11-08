@@ -16,6 +16,8 @@
 5. Введите IP сервера и нажмите кнопку на первом компьютере, чтобы изменить изображение на втором компьютере.
 6. Нажмите на кнопку повторно, чтобы вернуть изображение в первоначальный вид.
 
+![hippo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm4zbjlobGg3Mmpkc2Y2ZnowaDJ3Z3RwbXdmNW9ncDZ0eGliMmRmMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4K73mXvhbcZ1gbziji/source.gif)
+
 ## Автор
 
 Ионин Владислав Дмитриевич, студент ДВФУ второго курса учебной программы Б9122-01.03.02сп.
